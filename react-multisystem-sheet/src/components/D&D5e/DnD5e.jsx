@@ -15,11 +15,11 @@ export const DnD5e = () => {
                         <input name="CharacterName" id="characterSelect" onchange="LoadCharacter()" list="characters" />
                         <datalist id="characters"></datalist>
                         <h2>Level</h2>
-                        <!-- level determines proficiency bonus through onchange -->
+                        {/* <!-- level determines proficiency bonus through onchange --> */}
                         <input name="Level" type="number" id="playerLevel" min="1" max="20" value="1"
                             onchange="SetProficiencyBonus()">
                         <h2>Notes</h2>
-                        <!-- <input id="playerNotes" name="PlayerNotes" type="text"> -->
+                        {/* <!-- <input id="playerNotes" name="PlayerNotes" type="text"> --> */}
                         <textarea name="PlayerNotes" id="playerNotes"></textarea>
                     </section>
                     <section>
@@ -34,7 +34,7 @@ export const DnD5e = () => {
                             <tr>
                                 <td>Strength</td>
                                 <td>
-                                    <!-- When changed, updates the value of related Modifier -->
+                                    {/* <!-- When changed, updates the value of related Modifier --> */}
                                     <input name="STR" type="number" value="10" id="strScore"
                                         onchange="UpdateModifiers()">
                                 </td>
@@ -144,7 +144,7 @@ export const DnD5e = () => {
                     </section>
 
                     <br>
-                    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#diceRoller">
+                    {/* <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#diceRoller">
                         Roll Dice
                     </button>
 
@@ -156,7 +156,7 @@ export const DnD5e = () => {
                                     <h1 class="modal-title fs-5" id="staticBackdropLabel">Dice Roller</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
-                                </div> -->
+                                </div> --> */}
                                 <div class="modal-body">
                                     <div class="container">
                                         <h1>Dice Roller</h1>
@@ -171,10 +171,10 @@ export const DnD5e = () => {
                                                 <option value="20">d20</option>
                                                 <option value="100">d100</option>
                                             </select>
-                                            <br>
+                                            <br/>
                                             <label for="modifier"> + Modifier:</label>
-                                            <input type="number" id="modifier" value="0">
-                                            <br>
+                                            <input type="number" id="modifier" value="0" />
+                                            <br/>
                                             <button class="btn-success" id="add-dice">Add Dice</button>
                                             <button class="btn-danger" id="reset-dice">Reset Dice</button>
                                         </div>
@@ -187,14 +187,14 @@ export const DnD5e = () => {
                                     </div>
                                 </div>
                                 <div class="modal-footer justify-content-center">
-                                    <!-- <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Close</button> -->
+                                    {/* <!-- <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button> --> */}
                                     <button type="button" id="roll-dice" class="btn btn-primary">Roll</button>
                                 </div>
-                            <!-- </div>
+                            {/* <!-- </div>
                         </div>
-                    </div> -->
-                    <br>
+                    </div> --> */}
+                    <br/>
 
                     <section id="shieldHere" class="justify-content-center">
                         <h2>Armor</h2>
@@ -226,10 +226,10 @@ export const DnD5e = () => {
                             <option value="none">None</option>
                             <option value="shield">Shield</option>
                         </select>
-                        <br><br>
+                        <br/><br/>
 
                         <h6>AC:</h6>
-                        <input type="number" id="armorClass" placeholder="0">
+                        <input type="number" id="armorClass" placeholder="0" />
                     </section>
                 </div>
 
@@ -237,13 +237,13 @@ export const DnD5e = () => {
                     <section>
                     <h2>Proficiency Bonus</h2>
 
-                    <br>
+                    <br/>
 
-                    <input type="number" id="profBonus" value="2">
+                    <input type="number" id="profBonus" value="2" />
                     </section>
                     
 
-                    <!-- <h2>Skills</h2> -->
+                    {/* <!-- <h2>Skills</h2> --> */}
 
                     <table class="table">
                         <thead>
@@ -254,20 +254,20 @@ export const DnD5e = () => {
                         </thead>
                         <tr>
                             <td>
-                                <input name="Acrobatics" type="checkbox" id="acroProf" onchange="SetSkills()">
+                                <input name="Acrobatics" type="checkbox" id="acroProf" onchange="SetSkills()" />
                             </td>
                             <td>Acrobatics:</td>
                             <td>
-                                <input type="number" id="acroScore">
+                                <input type="number" id="acroScore" />
                             </td>
                             <td>
                                 <button class="roll-button" data-score-id="acroScore">Roll</button>
                             </td>
                         </tr>
                         <tr>
-                            <td><input name="AnimalHandling" type="checkbox" id="animProf" onchange="SetSkills()"></td>
+                            <td><input name="AnimalHandling" type="checkbox" id="animProf" onchange="SetSkills()" /></td>
                             <td>Animal Handling:</td>
-                            <td><input type="number" id="animScore"></td>
+                            <td><input type="number" id="animScore" /></td>
                             <td>
                                 <button class="roll-button" data-score-id="animScore">Roll</button>
                             </td>
