@@ -3,7 +3,6 @@ import styles from './DnD5e.module.css'
 
 export const DnD5e = () => {
     return (
-        <br><br>
     <div class="container">
         <form id="charSheet" name="characterSheet">
             <div class="row">
