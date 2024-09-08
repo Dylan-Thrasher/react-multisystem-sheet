@@ -17,14 +17,14 @@ export const DnD5e = () => {
                         <h2>Level</h2>
                         {/* <!-- level determines proficiency bonus through onchange --> */}
                         <input name="Level" type="number" id="playerLevel" min="1" max="20" value="1"
-                            onchange="SetProficiencyBonus()">
+                            onchange="SetProficiencyBonus()" />
                         <h2>Notes</h2>
                         {/* <!-- <input id="playerNotes" name="PlayerNotes" type="text"> --> */}
                         <textarea name="PlayerNotes" id="playerNotes"></textarea>
                     </section>
                     <section>
                         <h2>Ability Scores</h2>
-                        <br>
+                        <br/>
                         <table class="table">
                             <tr>
                                 <th>Ability</th>
@@ -36,67 +36,67 @@ export const DnD5e = () => {
                                 <td>
                                     {/* <!-- When changed, updates the value of related Modifier --> */}
                                     <input name="STR" type="number" value="10" id="strScore"
-                                        onchange="UpdateModifiers()">
+                                        onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
-                                    <input type="number" value="0" id="strMod">
+                                    <input type="number" value="0" id="strMod"/>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Dexterity</td>
                                 <td>
                                     <input name="DEX" type="number" value="10" id="dexScore"
-                                        onchange="UpdateModifiers()">
+                                        onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
-                                    <input type="number" value="0" id="dexMod">
+                                    <input type="number" value="0" id="dexMod"/>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Constitution</td>
                                 <td>
                                     <input name="CON" type="number" value="10" id="conScore"
-                                        onchange="UpdateModifiers()">
+                                        onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
-                                    <input type="number" value="0" id="conMod">
+                                    <input type="number" value="0" id="conMod"/>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Intelligence</td>
                                 <td>
                                     <input name="INT" type="number" value="10" id="intScore"
-                                        onchange="UpdateModifiers()">
+                                        onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
-                                    <input type="number" value="0" id="intMod">
+                                    <input type="number" value="0" id="intMod"/>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Wisdom</td>
                                 <td>
                                     <input name="WIS" type="number" value="10" id="wisScore"
-                                        onchange="UpdateModifiers()">
+                                        onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
-                                    <input type="number" value="0" id="wisMod">
+                                    <input type="number" value="0" id="wisMod"/>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Charisma</td>
                                 <td>
                                     <input name="CHA" type="number" value="10" id="chaScore"
-                                        onchange="UpdateModifiers()">
+                                        onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
-                                    <input type="number" value="0" id="chaMod">
+                                    <input type="number" value="0" id="chaMod"/>
                                 </td>
                             </tr>
                         </table>
                         <div class="text-center">
                             <div class="btn btn-success" onclick="SaveData()">Save Data</div>
                         </div>
-                        <br>
+                        <br/>
                         <div class="text-center">
                             <div class="btn btn-info" onclick="LoadCharacter()">Load Data</div>
                         </div>
@@ -109,11 +109,11 @@ export const DnD5e = () => {
                         <div class="center-me">
                             <h2>Hit Points</h2>
                             <span>HP: </span>
-                            <input name="HP" class="stat" type="number" id="currentHP"> /
-                            <input name="MaxHP" class="stat" type="number" id="maxHP">
+                            <input name="HP" class="stat" type="number" id="currentHP"/> /
+                            <input name="MaxHP" class="stat" type="number" id="maxHP"/>
                         </div>
 
-                        <br>
+                        <br/>
 
                         <div class="center-me">
                             <span class="btn btn-danger" onclick="TakeDamage()">Damage</span>
@@ -121,7 +121,7 @@ export const DnD5e = () => {
                             <span class="btn btn-success" onclick="HealHP()">Heal</span>
                         </div>
 
-                        <br>
+                        <br/>
 
                         <div class="center-me">
                             <span>Hit Dice:</span>
@@ -136,14 +136,14 @@ export const DnD5e = () => {
                                 <option value="20">20</option>
                             </select>
 
-                            <br><br>
+                            <br/><br/>
 
                             <div class="btn btn-info" onclick="ShortRest()" id="shortRestBtn">Short Rest</div>
                             <div class="btn btn-success" onclick="LongRest()" id="longRestBtn">Long Rest</div>
                         </div>
                     </section>
 
-                    <br>
+                    <br/>
                     {/* <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#diceRoller">
                         Roll Dice
                     </button>
