@@ -404,6 +404,7 @@ export const DnD5e = () => {
                 </div>
             </div>
         </form>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"></link>
     </div>
     )
 }
