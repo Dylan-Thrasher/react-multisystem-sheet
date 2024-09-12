@@ -9,6 +9,7 @@ export const Navbar = () => {
                 <li><button>DnD5e</button></li>
                 <li><button>MotW</button></li>
                 <li><button>Persona</button></li>
+                <li><button>Magic Academy</button></li>
             </ul>
             </nav>
         </div>
