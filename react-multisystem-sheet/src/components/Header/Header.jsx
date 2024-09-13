@@ -3,6 +3,8 @@ import styles from './Header.module.css'
 
 export const Header = () => {
     return (
-        <section></section>
+        <header>
+           <h2>Please select your system!</h2> 
+        </header>
     )
 }
