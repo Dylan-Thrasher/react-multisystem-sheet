@@ -27,7 +27,7 @@ export const MotW = () => {
                 </tr>
                 <tr>
                     <td>Tough</td>
-                    {/* insert modal for Kick Some Ass */}
+                    {/* insert modal for Kick Some Ass and Protect Someone */}
                     <td><input type="number" name="toughMod" id="toughMod" max="3" /></td>
                 </tr>
                 <tr>
