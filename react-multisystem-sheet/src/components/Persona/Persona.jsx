@@ -66,6 +66,64 @@ export const Persona = () => {
                             </tr>
                         </table>
             {/* Persona stats will be Strength, Magic, Defense, Vitality, Agility */}
+            <table class="table">
+                            <tr>
+                                <th>Ability</th>
+                                <th>Score</th>
+                                <th>Mod</th>
+                            </tr>
+                            <tr>
+                                <td>Strength</td>
+                                <td>
+                                    {/* <!-- When changed, updates the value of related Modifier --> */}
+                                    <input name="Strength" type="number" value="10" id="strengthScore"
+                                        onchange="UpdateModifiers()"/>
+                                </td>
+                                <td>
+                                    <input type="number" value="0" id="strengthMod"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Magic</td>
+                                <td>
+                                    <input name="Magic" type="number" value="10" id="magicScore"
+                                        onchange="UpdateModifiers()"/>
+                                </td>
+                                <td>
+                                    <input type="number" value="0" id="magicMod"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Defense</td>
+                                <td>
+                                    <input name="Defense" type="number" value="10" id="defenseScore"
+                                        onchange="UpdateModifiers()"/>
+                                </td>
+                                <td>
+                                    <input type="number" value="0" id="defenseMod"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Agility</td>
+                                <td>
+                                    <input name="Agility" type="number" value="10" id="agilityScore"
+                                        onchange="UpdateModifiers()"/>
+                                </td>
+                                <td>
+                                    <input type="number" value="0" id="agilityMod"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Vitality</td>
+                                <td>
+                                    <input name="Vitality" type="number" value="10" id="vitalityScore"
+                                        onchange="UpdateModifiers()"/>
+                                </td>
+                                <td>
+                                    <input type="number" value="0" id="vitalityMod"/>
+                                </td>
+                            </tr>
+                        </table>
             {/* Insert for Accessing Tarot images and their descriptions. */}
             {/* List of social links and ranks up to 10 */}
             {/* Text box for saving various benefits. */}
