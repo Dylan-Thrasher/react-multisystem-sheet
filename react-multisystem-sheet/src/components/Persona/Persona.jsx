@@ -6,7 +6,7 @@ export const Persona = () => {
         <section>
             {/* Left Side Player, Right Side Persona */}
             {/* Player name, Character name, Arcana */}
-            {/* Player stats will be Charm, Academics, Athletics, Courage, Notice */}
+            {/* Player stats will be Expression, Knowledge, Athletics, Willpower, Proficiency */}
             <table class="table">
                             <tr>
                                 <th>Ability</th>
@@ -14,24 +14,24 @@ export const Persona = () => {
                                 <th>Mod</th>
                             </tr>
                             <tr>
-                                <td>Charm</td>
+                                <td>Expression</td>
                                 <td>
                                     {/* <!-- When changed, updates the value of related Modifier --> */}
-                                    <input name="Charm" type="number" value="10" id="charmScore"
+                                    <input name="Expression" type="number" value="10" id="expressionScore"
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
-                                    <input type="number" value="0" id="charmMod"/>
+                                    <input type="number" value="0" id="expressionMod"/>
                                 </td>
                             </tr>
                             <tr>
-                                <td>Academics</td>
+                                <td>Knowledge</td>
                                 <td>
-                                    <input name="Academics" type="number" value="10" id="academicScore"
+                                    <input name="Knowledge" type="number" value="10" id="knowledgeScore"
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
-                                    <input type="number" value="0" id="academicMod"/>
+                                    <input type="number" value="0" id="knowledgeMod"/>
                                 </td>
                             </tr>
                             <tr>
@@ -45,23 +45,23 @@ export const Persona = () => {
                                 </td>
                             </tr>
                             <tr>
-                                <td>Courage</td>
+                                <td>Willpower</td>
                                 <td>
-                                    <input name="Courage" type="number" value="10" id="courageScore"
+                                    <input name="Willpower" type="number" value="10" id="willpowerScore"
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
-                                    <input type="number" value="0" id="courageMod"/>
+                                    <input type="number" value="0" id="willpowerMod"/>
                                 </td>
                             </tr>
                             <tr>
-                                <td>Sense</td>
+                                <td>Proficiency</td>
                                 <td>
-                                    <input name="Sense" type="number" value="10" id="senseScore"
+                                    <input name="Proficiency" type="number" value="10" id="proficiencyScore"
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
-                                    <input type="number" value="0" id="senseMod"/>
+                                    <input type="number" value="0" id="proficiencyMod"/>
                                 </td>
                             </tr>
                         </table>
