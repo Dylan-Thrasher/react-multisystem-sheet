@@ -127,6 +127,7 @@ export const Persona = () => {
             {/* Insert for Accessing Tarot images and their descriptions. */}
             {/* List of social links and ranks up to 10 */}
             {/* Text box for saving various benefits. */}
+            <textarea name="PlayerNotes" id="playerNotes"></textarea>
         </section>
     )
 }
