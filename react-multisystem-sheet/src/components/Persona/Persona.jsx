@@ -126,6 +126,10 @@ export const Persona = () => {
                         </table>
             {/* Insert for Accessing Tarot images and their descriptions. */}
             {/* List of social links and ranks up to 10 */}
+            <form class="arcana checklist">
+                <input type="number" name="fool" id="fool" value="0"/>
+                <label htmlFor="fool">The Fool</label>
+            </form>
             {/* Text box for saving various benefits. */}
             <textarea name="PlayerNotes" id="playerNotes"></textarea>
         </section>
