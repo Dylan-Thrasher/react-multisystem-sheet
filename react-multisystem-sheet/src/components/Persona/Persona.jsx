@@ -129,6 +129,20 @@ export const Persona = () => {
             <form class="arcana checklist">
                 <input type="number" name="fool" id="fool" value="0"/>
                 <label htmlFor="fool">The Fool</label>
+                <input type="number" name="magician" id="magician" value="0"/>
+                <label htmlFor="magician">The Magician</label>
+                <input type="number" name="highPriestess" id="highPriestess" value="0"/>
+                <label htmlFor="highPriestess">The High Priestess</label>
+                <input type="number" name="empress" id="empress" value="0"/>
+                <label htmlFor="empress">The Empress</label>
+                <input type="number" name="emperor" id="emperor" value="0"/>
+                <label htmlFor="emperor">The Emperor</label>
+                <input type="number" name="hierophant" id="hierophant" value="0"/>
+                <label htmlFor="hierophant">The Hierophant</label>
+                <input type="number" name="lovers" id="lovers" value="0"/>
+                <label htmlFor="lovers">The Lovers</label>
+                <input type="number" name="chariot" id="chariot" value="0"/>
+                <label htmlFor="chariot">The Chariot</label>
             </form>
             {/* Text box for saving various benefits. */}
             <textarea name="PlayerNotes" id="playerNotes"></textarea>
