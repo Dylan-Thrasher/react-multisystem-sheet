@@ -143,6 +143,20 @@ export const Persona = () => {
                 <label htmlFor="lovers">The Lovers</label>
                 <input type="number" name="chariot" id="chariot" value="0"/>
                 <label htmlFor="chariot">The Chariot</label>
+                <input type="number" name="justice" id="justice" value="0"/>
+                <label htmlFor="justice">The Justice</label>
+                <input type="number" name="hermit" id="hermit" value="0"/>
+                <label htmlFor="hermit">The Hermit</label>
+                <input type="number" name="fortune" id="fortune" value="0"/>
+                <label htmlFor="fortune">The Wheel of Fortune</label>
+                <input type="number" name="strength" id="strength" value="0"/>
+                <label htmlFor="strength">The Strength</label>
+                <input type="number" name="hangedMan" id="hangedMan" value="0"/>
+                <label htmlFor="hangedMan">The Hanged Man</label>
+                <input type="number" name="death" id="death" value="0"/>
+                <label htmlFor="death">The Death</label>
+                <input type="number" name="temperance" id="temperance" value="0"/>
+                <label htmlFor="temperance">The Temperance</label>
             </form>
             {/* Text box for saving various benefits. */}
             <textarea name="PlayerNotes" id="playerNotes"></textarea>
