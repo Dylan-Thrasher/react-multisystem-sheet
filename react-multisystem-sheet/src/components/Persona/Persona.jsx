@@ -157,6 +157,18 @@ export const Persona = () => {
                 <label htmlFor="death">The Death</label>
                 <input type="number" name="temperance" id="temperance" value="0"/>
                 <label htmlFor="temperance">The Temperance</label>
+                <input type="number" name="tower" id="tower" value="0"/>
+                <label htmlFor="tower">The Tower</label>
+                <input type="number" name="star" id="star" value="0"/>
+                <label htmlFor="star">The Star</label>
+                <input type="number" name="moon" id="moon" value="0"/>
+                <label htmlFor="moon">The Moon</label>
+                <input type="number" name="sun" id="sun" value="0"/>
+                <label htmlFor="sun">The Sun</label>
+                <input type="number" name="judgement" id="judgement" value="0"/>
+                <label htmlFor="judgement">The Judgement</label>
+                <input type="number" name="world" id="world" value="0"/>
+                <label htmlFor="world">The World</label>
             </form>
             {/* Text box for saving various benefits. */}
             <textarea name="PlayerNotes" id="playerNotes"></textarea>
