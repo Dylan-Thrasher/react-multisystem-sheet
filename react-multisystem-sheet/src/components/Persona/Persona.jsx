@@ -7,6 +7,7 @@ export const Persona = () => {
             {/* Left Side Player, Right Side Persona */}
             {/* Player name, Character name, Arcana */}
             {/* Player stats will be Expression, Knowledge, Athletics, Willpower, Proficiency */}
+            <h2>Player Stats</h2>
             <table class="table">
                             <tr>
                                 <th>Ability</th>
@@ -66,6 +67,9 @@ export const Persona = () => {
                             </tr>
                         </table>
             {/* Persona stats will be Strength, Magic, Defense, Vitality, Agility */}
+            <h2>Persona Stats</h2>
+            <input type="text" name="personaName" />
+            <label htmlFor="personaName">Persona Name</label>
             <table class="table">
                             <tr>
                                 <th>Ability</th>
@@ -126,6 +130,7 @@ export const Persona = () => {
                         </table>
             {/* Insert for Accessing Tarot images and their descriptions. */}
             {/* List of social links and ranks up to 10 */}
+            <h2>Social Links</h2>
             <form class="arcana checklist">
                 <input type="number" name="fool" id="fool" value="0"/>
                 <label htmlFor="fool">The Fool</label>
@@ -171,7 +176,7 @@ export const Persona = () => {
                 <label htmlFor="world">The World</label>
             </form>
             {/* Text box for saving various benefits. */}
-            <textarea name="PlayerNotes" id="playerNotes"></textarea>
+            <textarea name="PlayerNotes" id="playerNotes" placeholder="Enter notes here"></textarea>
         </section>
     )
 }
