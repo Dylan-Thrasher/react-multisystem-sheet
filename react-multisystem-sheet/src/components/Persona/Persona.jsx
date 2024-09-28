@@ -8,6 +8,8 @@ export const Persona = () => {
             {/* Player name, Character name, Arcana */}
             {/* Player stats will be Expression, Knowledge, Athletics, Willpower, Proficiency */}
             <h2>Player Stats</h2>
+            <input type="text" name="playerName" />
+            <label htmlFor="playerName">Player Name:</label>
             <table class="table">
                             <tr>
                                 <th>Ability</th>
@@ -129,6 +131,7 @@ export const Persona = () => {
                             </tr>
                         </table>
             {/* Insert for Accessing Tarot images and their descriptions. */}
+            <h2>Tarot Deck</h2>
             {/* List of social links and ranks up to 10 */}
             <h2>Social Links</h2>
             <form class="arcana checklist">
