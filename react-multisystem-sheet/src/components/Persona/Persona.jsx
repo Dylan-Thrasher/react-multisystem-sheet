@@ -135,6 +135,10 @@ export const Persona = () => {
             {/* Insert for Accessing Tarot images and their descriptions. */}
             <section id="tarotThird">
             <h2>Tarot Deck</h2>
+            {/* Tarot card image */}
+            {/* Tarot name and description */}
+            {/* Search bar  */}
+            {/* Buttons for navigating between cards and randomizer button */}
             </section>
             {/* List of social links and ranks up to 10 */}
             <section id="socialThird">
