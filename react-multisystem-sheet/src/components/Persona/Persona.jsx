@@ -139,6 +139,7 @@ export const Persona = () => {
             {/* Tarot name and description */}
             {/* Search bar  */}
             {/* Buttons for navigating between cards and randomizer button */}
+            <button>←</button> <button>Random</button> <button>→</button>
             </section>
             {/* List of social links and ranks up to 10 */}
             <section id="socialThird">
