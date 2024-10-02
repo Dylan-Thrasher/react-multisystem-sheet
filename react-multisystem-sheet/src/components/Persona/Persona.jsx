@@ -137,7 +137,7 @@ export const Persona = () => {
             <h2>Tarot Deck</h2>
             {/* Tarot card image */}
             {/* Tarot name and description */}
-            {/* Search bar  */}
+            {/* Search bar to autofill with the available cards */}
             {/* Buttons for navigating between cards and randomizer button */}
             <button>←</button> <button>Random</button> <button>→</button>
             </section>
