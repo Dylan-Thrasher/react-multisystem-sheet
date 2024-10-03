@@ -3,7 +3,7 @@ import styles from './Persona.module.css'
 
 export const Persona = () => {
     return (
-        <section>
+        <section className="personaSheet">
             {/* Left Side Player, Right Side Persona */}
             {/* Player name, Character name, Arcana */}
             {/* Player stats will be Expression, Knowledge, Athletics, Willpower, Proficiency */}
@@ -132,7 +132,7 @@ export const Persona = () => {
                             </tr>
                         </table>
                         </section>
-            {/* Insert for Accessing Tarot images and their descriptions. */}
+            {/* Insert API for Accessing Tarot images and their descriptions. */}
             <section id="tarotThird">
             <h2>Tarot Deck</h2>
             {/* Tarot card image */}

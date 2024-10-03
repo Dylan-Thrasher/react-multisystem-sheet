@@ -1,0 +1,15 @@
+.personaSheet {
+    display: flex;
+}
+
+#characterThird {
+    width: 33%;
+}
+
+#socialThird {
+    width: 33%;
+}
+
+#tarotThird {
+    width: 33%;
+}
