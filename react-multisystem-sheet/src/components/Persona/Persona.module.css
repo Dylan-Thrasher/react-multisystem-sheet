@@ -1,15 +1,19 @@
 .personaSheet {
     display: flex;
+    flex-direction: row;
 }
 
 #characterThird {
+    flex-direction: column;
     width: 33%;
 }
 
 #socialThird {
+    flex-direction: column;
     width: 33%;
 }
 
 #tarotThird {
+    flex-direction: column;
     width: 33%;
 }
