@@ -11,6 +11,7 @@ export const Persona = () => {
             <h2>Player Stats</h2>
             <input type="text" name="playerName" />
             <label htmlFor="playerName">Player Name:</label>
+            {/* Input for character level */}
             <table class="table">
                             <tr>
                                 <th>Ability</th>
@@ -73,6 +74,7 @@ export const Persona = () => {
             <h2>Persona Stats</h2>
             <input type="text" name="personaName" />
             <label htmlFor="personaName">Persona Name</label>
+            {/* Input for Persona Level */}
             <table class="table">
                             <tr>
                                 <th>Ability</th>
@@ -131,6 +133,10 @@ export const Persona = () => {
                                 </td>
                             </tr>
                         </table>
+                        {/* Text Area labeled for Light spells */}
+                        {/* Text area for Medium spells */}
+                        {/* Text area for Heavy spells */}
+                        {/* Text area for Severe spells */}
                         </section>
             {/* Insert API for Accessing Tarot images and their descriptions. */}
             {/* API potential choices: tarotapi.dev Horostori in rapidAPI https://github.com/krates98/tarotcardapi https://github.com/ekelen/tarot-api */}
