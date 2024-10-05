@@ -133,6 +133,7 @@ export const Persona = () => {
                         </table>
                         </section>
             {/* Insert API for Accessing Tarot images and their descriptions. */}
+            {/* API potential choices: tarotapi.dev Horostori in rapidAPI https://github.com/krates98/tarotcardapi https://github.com/ekelen/tarot-api */}
             <section id="tarotThird">
             <h2>Tarot Deck</h2>
             {/* Tarot card image */}
