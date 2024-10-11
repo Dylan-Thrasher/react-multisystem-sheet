@@ -17,6 +17,18 @@ export const Persona = () => {
             </li>
             </ul>
             <h4>Human Stats</h4>
+            <ul>
+                <li>Expression: Having your intent show through your face and body language in a believable manner. 
+                    This also allows you to read the expressions of others accurately if successful.</li>
+                <li>Knowledge: Your character’s collection of information on a wide variety of subjects. 
+                    From book smarts to street smarts, if it requires specific information, it falls under this.</li>
+                <li>Athletics: How well you can use and control your body, along with general health. 
+                    If a fight breaks out in the real world, this will be used similarly to Strength for the Persona.</li>
+                <li>Willpower: The ability to press on towards a goal and resist opposition/distraction. 
+                    This can be helpful in resisting certain mental-based magic as well.</li>
+                <li>Proficiency: The level of ability that a player has in applications that require specific trained skills. 
+                    This can range from things like picking a lock to auto-repair.</li>
+            </ul>
             {/* Possibility of Persona Forms being a perk such as flying, vehicle, humanoid */}
             {/* Resist vs Weakness for elements*/}
             {/* Charts for Dice used */}
