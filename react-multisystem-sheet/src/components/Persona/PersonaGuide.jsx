@@ -38,6 +38,7 @@ export const Persona = () => {
             {/* Social link descriptions */}
             {/* Level up planning */}
             {/* Combat round example */}
+            {/* Achievements and Rumors */}
         </section>
     )
 }
