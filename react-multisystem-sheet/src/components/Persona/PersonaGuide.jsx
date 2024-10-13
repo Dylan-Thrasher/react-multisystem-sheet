@@ -32,8 +32,13 @@ export const Persona = () => {
             {/* Possibility of Persona Forms being a perk such as flying, vehicle, humanoid */}
             {/* Resist vs Weakness for elements*/}
             {/* Charts for Dice used */}
-            {/* Explanation of Critical Hit */}
+            {/* Explanation of Critical Hits and misses */}
+            <h4>Critical Hits</h4>
+            <p>When attacking, roll a d20. On a physical attack, if the d20 lands on 20, you score a critical hit. This multiplies the damage by 1.5 times and knocks the target down.
+                If the result is not higher than the target's Agility score, the attack misses.
+            </p>
             {/* Status Effect Descriptions */}
+            {/* All Out Attacks */}
             {/* Explanation of status effect removing spells vs healing use */}
             {/* Social link descriptions */}
             {/* Level up planning */}
