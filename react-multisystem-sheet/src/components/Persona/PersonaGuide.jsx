@@ -41,7 +41,7 @@ export const Persona = () => {
             {/* All Out Attacks */}
             {/* Explanation of status effect removing spells vs healing use */}
             {/* Social link descriptions */}
-            {/* Level up planning */}
+            {/* Level up planning: Stat points and Skill points */}
             {/* Combat round example */}
             {/* Achievements and Rumors */}
         </section>
