@@ -43,6 +43,7 @@ export const Persona = () => {
             {/* Social link descriptions */}
             {/* Level up planning: Stat points and Skill points */}
             {/* Combat round example */}
+            {/* Combat explanation outside of Shadow World */}
             {/* Achievements and Rumors */}
         </section>
     )
