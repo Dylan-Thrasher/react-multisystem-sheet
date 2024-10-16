@@ -30,6 +30,13 @@ export const Persona = () => {
                     This can range from things like picking a lock to auto-repair.</li>
             </ul>
             {/* Possibility of Persona Forms being a perk such as flying, vehicle, humanoid */}
+            <p>Forms can provide different perks for your Persona. The perk changes based on which form you select.
+                <ul>
+                    <li>Humanoid: Capable of helping with interacting with the environment on your behalf as another person.</li>
+                    <li>Beast: Able to move through the environment in a manner similarly to their animal. Often can be ridden.</li>
+                    <li>Vehicle: Can be used to transport people across long distances rapidly.</li>
+                </ul>
+            </p>
             {/* Resist vs Weakness for elements*/}
             {/* Charts for Dice used */}
             {/* Explanation of Critical Hits and misses */}
