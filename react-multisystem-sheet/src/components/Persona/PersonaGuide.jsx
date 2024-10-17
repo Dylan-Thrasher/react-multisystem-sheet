@@ -38,6 +38,11 @@ export const Persona = () => {
                 </ul>
             </p>
             {/* Resist vs Weakness for elements*/}
+            <h4>Weaknesses and Resistances</h4>
+            <p>Weaknesses and Resistances are a specific damage type that has a different effect on a target than usual.
+                If a target is hit with a damage type they are weak to, it will do 1.5x damage. 
+                If a target is hit with a damage type they are Resistant to, the damage will be reduced by half.
+            </p>
             {/* Charts for Dice used */}
             {/* Explanation of Critical Hits and misses */}
             <h4>Critical Hits</h4>
