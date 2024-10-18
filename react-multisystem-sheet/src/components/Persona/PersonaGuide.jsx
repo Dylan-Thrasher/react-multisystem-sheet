@@ -44,6 +44,7 @@ export const Persona = () => {
                 If a target is hit with a damage type they are Resistant to, the damage will be reduced by half.
             </p>
             {/* Charts for Dice used */}
+            {/* Equipment */}
             {/* Explanation of Critical Hits and misses */}
             <h4>Critical Hits</h4>
             <p>When attacking, roll a d20. On a physical attack, if the d20 lands on 20, you score a critical hit. This multiplies the damage by 1.5 times and knocks the target down.
@@ -51,6 +52,11 @@ export const Persona = () => {
             </p>
             {/* Status Effect Descriptions */}
             {/* All Out Attacks */}
+            <h4>All Out Attacks</h4>
+            <p>The All Out Attack can be used when all opponents are downed due to being hit by their weaknesses or critical hits.
+                The total of the All Out Attack is the total of every participant's weapon. Players who are downed cannot participate in an All Out Attack.
+                An All Out Attack completely ignores Defense and Resistances. 
+            </p>
             {/* Explanation of status effect removing spells vs healing use */}
             {/* Social link descriptions */}
             {/* Level up planning: Stat points and Skill points */}
