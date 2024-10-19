@@ -59,6 +59,12 @@ export const Persona = () => {
             </p>
             {/* Explanation of status effect removing spells vs healing use */}
             {/* Social link descriptions */}
+            <h4>Social Links</h4>
+            <p>Upon getting close to key characters, including other party members, you'll unlock social links.
+                When you reach important stages in your interpersonal relationships, this is represented by Social Link ranks.
+                You can gain various benefits from ranks in social links. NPC social links can provide access to new items or features.
+                When you increase ranks with other PCs, it can give you new abilities in battle.
+            </p>
             {/* Level up planning: Stat points and Skill points */}
             {/* Combat round example */}
             {/* Combat explanation outside of Shadow World */}
