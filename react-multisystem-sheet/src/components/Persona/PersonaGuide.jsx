@@ -58,6 +58,10 @@ export const Persona = () => {
                 An All Out Attack completely ignores Defense and Resistances. 
             </p>
             {/* Explanation of status effect removing spells vs healing use */}
+            <h4>Healing and Curing</h4>
+            <p>Healing spells provide a health recovery based on the tier of spell and magic dice. The recovery can only go as high as up to full.
+                Status Effect cure spells can cure status effects if the related spell is used. Depending on the skill, it may be for one or multiple targets.
+            </p>
             {/* Social link descriptions */}
             <h4>Social Links</h4>
             <p>Upon getting close to key characters, including other party members, you'll unlock social links.
