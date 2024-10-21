@@ -45,6 +45,14 @@ export const Persona = () => {
             </p>
             {/* Charts for Dice used */}
             {/* Equipment */}
+            <h4>Equipment</h4>
+            <p>Your character has 3 equipment slots
+                <ul>
+                    <li>Weapon: This is the base damage and type your character does without using their Persona.</li>
+                    <li>Outfit: This provides a variety of effects, typically a stat boost.</li>
+                    <li>Accessory: This can typically provide abilities that can range from general stat boost to very specific circumstances like auto-revive with 1 HP.</li>
+                </ul>
+            </p>
             {/* Explanation of Critical Hits and misses */}
             <h4>Critical Hits</h4>
             <p>When attacking, roll a d20. On a physical attack, if the d20 lands on 20, you score a critical hit. This multiplies the damage by 1.5 times and knocks the target down.
