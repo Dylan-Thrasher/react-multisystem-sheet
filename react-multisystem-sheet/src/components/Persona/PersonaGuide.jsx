@@ -81,6 +81,10 @@ export const Persona = () => {
             {/* Combat round example */}
             {/* Combat explanation outside of Shadow World */}
             {/* Achievements and Rumors */}
+            <h4>Achievements and Rumors</h4>
+            <p>Players can end up with achievements and rumors based on the actions of the players or their characters.
+                These can provide various small in-game benefits such as a bonus in specific circumstances, based on the achievement.
+            </p>
         </section>
     )
 }
