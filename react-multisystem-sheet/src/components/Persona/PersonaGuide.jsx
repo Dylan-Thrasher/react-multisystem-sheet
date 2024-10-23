@@ -44,6 +44,8 @@ export const Persona = () => {
                 If a target is hit with a damage type they are Resistant to, the damage will be reduced by half.
             </p>
             {/* Charts for Dice used */}
+            <h4>Dice Progression</h4>
+            <p>This system uses the Step Dice style of dice progression. With each point placed in a stat that affects damage, you use the dice below. </p>
             {/* Equipment */}
             <h4>Equipment</h4>
             <p>Your character has 3 equipment slots
