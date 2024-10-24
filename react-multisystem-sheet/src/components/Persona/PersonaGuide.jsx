@@ -63,13 +63,13 @@ export const Persona = () => {
             {/* Status Effect Descriptions */}
             <h4>Status Effects</h4>
             <ul>
-                <li>Freeze</li>
-                <li>Burn</li>
-                <li>Shock</li>
-                <li>Panic</li>
-                <li>Sleep</li>
-                <li>Silence</li>
-                <li>Poison</li>
+                <li>Freeze: Unable to move, physical resistance is now neutral, physical attacks against frozen target auto-crit. Freeze breaks upon being attacked.</li>
+                <li>Burn: Lose 10% of max HP every turn.</li>
+                <li>Shock: Unable to move.</li>
+                <li>Panic: Roll 1d4, results determine what you do. 1- Attack an ally, 2- Move to another position, 3- Do nothing, 4- Take turn as normal</li>
+                <li>Sleep: Cannot act, defense goes down. Being attacked wakes target.</li>
+                <li>Silence: Players cannot use their Persona, Shadows cannot use Spells.</li>
+                <li>Poison: Attack halved after damage results are determined, loses 1/6 HP per turn.</li>
             </ul>
             {/* All Out Attacks */}
             <h4>All Out Attacks</h4>
