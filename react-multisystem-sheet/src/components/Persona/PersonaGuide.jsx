@@ -61,6 +61,16 @@ export const Persona = () => {
                 If the result is not higher than the target's Agility score, the attack misses.
             </p>
             {/* Status Effect Descriptions */}
+            <h4>Status Effects</h4>
+            <ul>
+                <li>Freeze</li>
+                <li>Burn</li>
+                <li>Shock</li>
+                <li>Panic</li>
+                <li>Sleep</li>
+                <li>Silence</li>
+                <li>Poison</li>
+            </ul>
             {/* All Out Attacks */}
             <h4>All Out Attacks</h4>
             <p>The All Out Attack can be used when all opponents are downed due to being hit by their weaknesses or critical hits.
