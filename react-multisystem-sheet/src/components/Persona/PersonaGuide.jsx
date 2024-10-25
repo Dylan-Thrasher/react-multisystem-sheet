@@ -91,6 +91,14 @@ export const Persona = () => {
             </p>
             {/* Level up planning: Stat points and Skill points */}
             {/* Combat round example */}
+            <h4>Combat Round Example</h4>
+            <p>Jack is fighting an Ice Shadow. His Persona, Prometheus, has the lowest tier fire spell Agi. Jack is up first and decides to hit the Shadow with Agi, rolling a d20. 
+                The Shadow’s Agility is 2, while Jack rolled a 3, so Jack’s attack hits. 
+                Jack has a Magic stat of 3, so he rolls a d4 and d6 and takes the higher result to add to the spell’s base damage. 
+                He rolls a 3 and a 5, taking the higher 5 and adding it to the spell’s 10 base damage for a 15 total. 
+                The opponent is weak to fire, increasing the damage by x1.5 (rounded up) for a total of 23 damage. 
+                The frost shadow has 1 in Defense, reducing the damage taken to 20. Since the Shadow only had a 1 in Vitality, making its HP 20, the Shadow is defeated! 
+            </p>
             {/* Combat explanation outside of Shadow World */}
             {/* Achievements and Rumors */}
             <h4>Achievements and Rumors</h4>
