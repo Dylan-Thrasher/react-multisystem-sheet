@@ -100,6 +100,8 @@ export const Persona = () => {
                 The frost shadow has 1 in Defense, reducing the damage taken to 20. Since the Shadow only had a 1 in Vitality, making its HP 20, the Shadow is defeated! 
             </p>
             {/* Combat explanation outside of Shadow World */}
+            <h4>Human world combat</h4>
+            <p></p>
             {/* Achievements and Rumors */}
             <h4>Achievements and Rumors</h4>
             <p>Players can end up with achievements and rumors based on the actions of the players or their characters.
