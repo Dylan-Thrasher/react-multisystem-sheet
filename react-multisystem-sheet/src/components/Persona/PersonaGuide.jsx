@@ -103,6 +103,7 @@ export const Persona = () => {
             <h4>Human world combat</h4>
             <p>In the human world, your Persona cannot be summoned and you do not have the benefits of its aura protecting you.
                 Due to this, your HP is dropped to 1/4 of its value (5 HP per point in Vitality instead of 20) and none of the Persona skills or resistances can be used.
+                Athletics is used instead of Strength as well in this state. 
             </p>
             {/* Achievements and Rumors */}
             <h4>Achievements and Rumors</h4>
