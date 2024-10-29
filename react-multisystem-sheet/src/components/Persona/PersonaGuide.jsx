@@ -70,6 +70,7 @@ export const Persona = () => {
                 <li>Sleep: Cannot act, defense goes down. Being attacked wakes target.</li>
                 <li>Silence: Players cannot use their Persona, Shadows cannot use Spells.</li>
                 <li>Poison: Attack halved after damage results are determined, loses 1/6 HP per turn.</li>
+                <li>Downed: Unable to move, automatically recovered upon end of turn next.</li>
             </ul>
             {/* All Out Attacks */}
             <h4>All Out Attacks</h4>
