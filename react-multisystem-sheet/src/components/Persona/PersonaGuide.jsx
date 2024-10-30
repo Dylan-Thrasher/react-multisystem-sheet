@@ -91,6 +91,12 @@ export const Persona = () => {
                 When you increase ranks with other PCs, it can give you new abilities in battle.
             </p>
             {/* Level up planning: Stat points and Skill points */}
+            <h4>Leveling Up</h4>
+            <h5>Social Stats</h5>
+            <p>Social Stats are leveled up by getting 3 exp in the desired stat.
+                Exp for leveling social stats can be gained by either spending time training the stat at related locations, such as Athletics with the college gym, 
+                or occasionally as a reward for great use of the desired stat in roleplay.
+            </p>
             {/* Combat round example */}
             <h4>Combat Round Example</h4>
             <p>Jack is fighting an Ice Shadow. His Persona, Prometheus, has the lowest tier fire spell Agi. Jack is up first and decides to hit the Shadow with Agi, rolling a d20. 
