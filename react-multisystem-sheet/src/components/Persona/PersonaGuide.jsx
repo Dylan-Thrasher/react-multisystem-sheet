@@ -97,6 +97,11 @@ export const Persona = () => {
                 Exp for leveling social stats can be gained by either spending time training the stat at related locations, such as Athletics with the college gym, 
                 or occasionally as a reward for great use of the desired stat in roleplay.
             </p>
+            <h5>Persona Stats and Skills</h5>
+            <ul>
+                <li>Persona Stats increase on every even level. You get 2 points to use for stat increases every time.</li>
+                <li>Persona Skills can be added every odd level. The skill you acquire must be in a tier appropriate to the level you received the point at.</li>
+            </ul>
             {/* Combat round example */}
             <h4>Combat Round Example</h4>
             <p>Jack is fighting an Ice Shadow. His Persona, Prometheus, has the lowest tier fire spell Agi. Jack is up first and decides to hit the Shadow with Agi, rolling a d20. 
