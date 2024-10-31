@@ -36,6 +36,11 @@ export const Persona = () => {
                     <li>Beast: Able to move through the environment in a manner similarly to their animal. Often can be ridden.</li>
                     <li>Vehicle: Can be used to transport people across long distances rapidly.</li>
                 </ul>
+                There are also abilities that a Persona can have regardless of which form that you take.
+                Sensory type Persona can be used to search for targets in a certain area. The more info they have on the targets, the easier.
+                Stealth type Persona are the opposite. They specialize in avoiding detection from enemies searching for them, whether Shadows or another Persona user.
+                Analysis type Persona are able to analyze the abilities of a target within battle. By taking a turn to observe, they are capable of learning their enemy's capabilities, strengths, and weaknesses.
+                Communications style Persona are able to share telepathic messages with willing participants, allowing their party to plan without their opponents being aware.
             </p>
             {/* Resist vs Weakness for elements*/}
             <h4>Weaknesses and Resistances</h4>
