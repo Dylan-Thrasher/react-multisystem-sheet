@@ -4,6 +4,13 @@ import styles from './MotW.module.css'
 export const MotW = () => {
     return (
         <section>
+            <form id="motwCharacterSheet">
+            <h2>Player</h2>
+            <input name="motwPlayer" type="text" list="motwPlayers"/>
+            <datalist id="motwPlayers"></datalist>
+            <h2>Character</h2>
+            <input name="motwCharacter" type="text" list="motwCharacters"/>
+            <datalist id="motwCharacters"></datalist>
             <h2>Stats</h2>
             <table>
                 <tr>
@@ -43,6 +50,7 @@ export const MotW = () => {
                     <td><input type="number" name="weirdMod" id="weirdMod" max="3" /></td>
                 </tr>
             </table>
+            </form>
         </section>
     )
 }
