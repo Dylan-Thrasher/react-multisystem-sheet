@@ -72,6 +72,10 @@ export const MotW = () => {
                     <td><button>Roll Weird</button></td>
                 </tr>
             </table>
+            <h3>Moves</h3>
+            <textarea name="motwMoves" id="motwMoves"></textarea>
+            <h3>Notes</h3>
+            <textarea name="motwNotes" id="motwNotes"></textarea>
             </form>
         </section>
     )
