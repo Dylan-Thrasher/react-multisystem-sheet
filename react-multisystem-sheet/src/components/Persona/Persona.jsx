@@ -152,47 +152,47 @@ export const Persona = () => {
             <section id="socialThird">
             <h2>Social Links</h2>
             <form class="arcana checklist">
-                <input type="number" name="fool" id="fool" value="0"/>
+                <input type="number" name="fool" id="fool" value="0" max="10"/>
                 <label htmlFor="fool">The Fool</label>
-                <input type="number" name="magician" id="magician" value="0"/>
+                <input type="number" name="magician" id="magician" value="0" max="10"/>
                 <label htmlFor="magician">The Magician</label>
-                <input type="number" name="highPriestess" id="highPriestess" value="0"/>
+                <input type="number" name="highPriestess" id="highPriestess" value="0" max="10"/>
                 <label htmlFor="highPriestess">The High Priestess</label>
-                <input type="number" name="empress" id="empress" value="0"/>
+                <input type="number" name="empress" id="empress" value="0" max="10"/>
                 <label htmlFor="empress">The Empress</label>
-                <input type="number" name="emperor" id="emperor" value="0"/>
+                <input type="number" name="emperor" id="emperor" value="0" max="10"/>
                 <label htmlFor="emperor">The Emperor</label>
-                <input type="number" name="hierophant" id="hierophant" value="0"/>
+                <input type="number" name="hierophant" id="hierophant" value="0" max="10"/>
                 <label htmlFor="hierophant">The Hierophant</label>
-                <input type="number" name="lovers" id="lovers" value="0"/>
+                <input type="number" name="lovers" id="lovers" value="0" max="10"/>
                 <label htmlFor="lovers">The Lovers</label>
-                <input type="number" name="chariot" id="chariot" value="0"/>
+                <input type="number" name="chariot" id="chariot" value="0" max="10"/>
                 <label htmlFor="chariot">The Chariot</label>
-                <input type="number" name="justice" id="justice" value="0"/>
+                <input type="number" name="justice" id="justice" value="0" max="10"/>
                 <label htmlFor="justice">The Justice</label>
-                <input type="number" name="hermit" id="hermit" value="0"/>
+                <input type="number" name="hermit" id="hermit" value="0" max="10"/>
                 <label htmlFor="hermit">The Hermit</label>
-                <input type="number" name="fortune" id="fortune" value="0"/>
+                <input type="number" name="fortune" id="fortune" value="0" max="10"/>
                 <label htmlFor="fortune">The Wheel of Fortune</label>
-                <input type="number" name="strength" id="strength" value="0"/>
+                <input type="number" name="strength" id="strength" value="0" max="10"/>
                 <label htmlFor="strength">The Strength</label>
-                <input type="number" name="hangedMan" id="hangedMan" value="0"/>
+                <input type="number" name="hangedMan" id="hangedMan" value="0" max="10"/>
                 <label htmlFor="hangedMan">The Hanged Man</label>
-                <input type="number" name="death" id="death" value="0"/>
+                <input type="number" name="death" id="death" value="0" max="10"/>
                 <label htmlFor="death">The Death</label>
-                <input type="number" name="temperance" id="temperance" value="0"/>
+                <input type="number" name="temperance" id="temperance" value="0" max="10"/>
                 <label htmlFor="temperance">The Temperance</label>
-                <input type="number" name="tower" id="tower" value="0"/>
+                <input type="number" name="tower" id="tower" value="0" max="10"/>
                 <label htmlFor="tower">The Tower</label>
-                <input type="number" name="star" id="star" value="0"/>
+                <input type="number" name="star" id="star" value="0" max="10"/>
                 <label htmlFor="star">The Star</label>
-                <input type="number" name="moon" id="moon" value="0"/>
+                <input type="number" name="moon" id="moon" value="0" max="10"/>
                 <label htmlFor="moon">The Moon</label>
-                <input type="number" name="sun" id="sun" value="0"/>
+                <input type="number" name="sun" id="sun" value="0" max="10"/>
                 <label htmlFor="sun">The Sun</label>
-                <input type="number" name="judgement" id="judgement" value="0"/>
+                <input type="number" name="judgement" id="judgement" value="0" max="10"/>
                 <label htmlFor="judgement">The Judgement</label>
-                <input type="number" name="world" id="world" value="0"/>
+                <input type="number" name="world" id="world" value="0" max="10"/>
                 <label htmlFor="world">The World</label>
             </form>
             {/* Text box for saving various benefits. */}
