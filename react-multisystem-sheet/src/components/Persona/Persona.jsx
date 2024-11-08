@@ -22,7 +22,7 @@ export const Persona = () => {
                                 <td>Expression</td>
                                 <td>
                                     {/* <!-- When changed, updates the value of related Modifier --> */}
-                                    <input name="Expression" type="number" value="10" id="expressionScore"
+                                    <input name="Expression" type="number" value="1" min="1" max="10" id="expressionScore"
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
@@ -32,7 +32,7 @@ export const Persona = () => {
                             <tr>
                                 <td>Knowledge</td>
                                 <td>
-                                    <input name="Knowledge" type="number" value="10" id="knowledgeScore"
+                                    <input name="Knowledge" type="number" value="1" min="1" max="10" id="knowledgeScore"
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
@@ -42,7 +42,7 @@ export const Persona = () => {
                             <tr>
                                 <td>Athletics</td>
                                 <td>
-                                    <input name="Athletics" type="number" value="10" id="athleticScore"
+                                    <input name="Athletics" type="number" value="1" min="1" max="10" id="athleticScore"
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
@@ -52,7 +52,7 @@ export const Persona = () => {
                             <tr>
                                 <td>Willpower</td>
                                 <td>
-                                    <input name="Willpower" type="number" value="10" id="willpowerScore"
+                                    <input name="Willpower" type="number" value="1" min="1" max="10" id="willpowerScore"
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
@@ -62,7 +62,7 @@ export const Persona = () => {
                             <tr>
                                 <td>Proficiency</td>
                                 <td>
-                                    <input name="Proficiency" type="number" value="10" id="proficiencyScore"
+                                    <input name="Proficiency" type="number" value="1" min="1" max="10" id="proficiencyScore"
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
@@ -85,7 +85,7 @@ export const Persona = () => {
                                 <td>Strength</td>
                                 <td>
                                     {/* <!-- When changed, updates the value of related Modifier --> */}
-                                    <input name="Strength" type="number" value="10" id="strengthScore"
+                                    <input name="Strength" type="number" value="1" min="1" max="10" id="strengthScore"
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
@@ -95,7 +95,7 @@ export const Persona = () => {
                             <tr>
                                 <td>Magic</td>
                                 <td>
-                                    <input name="Magic" type="number" value="10" id="magicScore"
+                                    <input name="Magic" type="number" value="1" min="1" max="10" id="magicScore"
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
@@ -105,7 +105,7 @@ export const Persona = () => {
                             <tr>
                                 <td>Defense</td>
                                 <td>
-                                    <input name="Defense" type="number" value="10" id="defenseScore"
+                                    <input name="Defense" type="number" value="1" min="1" max="10" id="defenseScore"
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
@@ -115,7 +115,7 @@ export const Persona = () => {
                             <tr>
                                 <td>Agility</td>
                                 <td>
-                                    <input name="Agility" type="number" value="10" id="agilityScore"
+                                    <input name="Agility" type="number" value="1" min="1" max="10" id="agilityScore"
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
@@ -125,7 +125,7 @@ export const Persona = () => {
                             <tr>
                                 <td>Vitality</td>
                                 <td>
-                                    <input name="Vitality" type="number" value="10" id="vitalityScore"
+                                    <input name="Vitality" type="number" value="1" min="1" max="10" id="vitalityScore"
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
