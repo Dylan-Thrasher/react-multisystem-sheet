@@ -26,7 +26,8 @@ export const Persona = () => {
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
-                                    <input type="number" value="0" id="expressionMod"/>
+                                <button>Roll</button>
+                                {/* Show dice that would be used. */}
                                 </td>
                             </tr>
                             <tr>
@@ -36,7 +37,7 @@ export const Persona = () => {
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
-                                    <input type="number" value="0" id="knowledgeMod"/>
+                                <button>Roll</button>
                                 </td>
                             </tr>
                             <tr>
@@ -46,7 +47,7 @@ export const Persona = () => {
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
-                                    <input type="number" value="0" id="athleticMod"/>
+                                <button>Roll</button>
                                 </td>
                             </tr>
                             <tr>
@@ -56,7 +57,7 @@ export const Persona = () => {
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
-                                    <input type="number" value="0" id="willpowerMod"/>
+                                <button>Roll</button>
                                 </td>
                             </tr>
                             <tr>
@@ -66,7 +67,7 @@ export const Persona = () => {
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
-                                    <input type="number" value="0" id="proficiencyMod"/>
+                                <button>Roll</button>
                                 </td>
                             </tr>
                         </table>
@@ -89,7 +90,8 @@ export const Persona = () => {
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
-                                    <input type="number" value="0" id="strengthMod"/>
+                                    <button>Roll</button>
+                                    {/* Show dice that would be used. */}
                                 </td>
                             </tr>
                             <tr>
@@ -99,7 +101,7 @@ export const Persona = () => {
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
-                                    <input type="number" value="0" id="magicMod"/>
+                                <button>Roll</button>
                                 </td>
                             </tr>
                             <tr>
@@ -109,7 +111,7 @@ export const Persona = () => {
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
-                                    <input type="number" value="0" id="defenseMod"/>
+                                <button>Roll</button>
                                 </td>
                             </tr>
                             <tr>
@@ -119,7 +121,7 @@ export const Persona = () => {
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
-                                    <input type="number" value="0" id="agilityMod"/>
+                                <button>Roll</button>
                                 </td>
                             </tr>
                             <tr>
@@ -129,7 +131,7 @@ export const Persona = () => {
                                         onchange="UpdateModifiers()"/>
                                 </td>
                                 <td>
-                                    <input type="number" value="0" id="vitalityMod"/>
+                                <button>Roll</button>
                                 </td>
                             </tr>
                         </table>
