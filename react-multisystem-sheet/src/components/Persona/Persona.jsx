@@ -7,6 +7,13 @@ export const Persona = () => {
             {/* Left Side Player, Right Side Persona */}
             {/* Player name, Character name, Arcana */}
             {/* Player stats will be Expression, Knowledge, Athletics, Willpower, Proficiency */}
+            <form id="personaCharacterSheet">
+            <h2>Player</h2>
+            <input name="personaPlayer" type="text" list="personaPlayers"/>
+            <datalist id="personaPlayers"></datalist>
+            <h2>Character</h2>
+            <input name="personaCharacter" type="text" list="personaCharacters"/>
+            <datalist id="Characters"></datalist>
             <section id="characterThird">
             <h2>Player Stats</h2>
             <input type="text" name="playerName" />
@@ -200,6 +207,7 @@ export const Persona = () => {
             {/* Text box for saving various benefits. */}
             <textarea name="PlayerNotes" id="playerNotes" placeholder="Enter notes here"></textarea>
             </section>
+            </form>
         </section>
     )
 }
