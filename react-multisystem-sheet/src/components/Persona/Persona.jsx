@@ -23,7 +23,7 @@ export const Persona = () => {
                             <tr>
                                 <th>Ability</th>
                                 <th>Score</th>
-                                <th>Mod</th>
+                                <th>Dice</th>
                             </tr>
                             <tr>
                                 <td>Expression</td>
