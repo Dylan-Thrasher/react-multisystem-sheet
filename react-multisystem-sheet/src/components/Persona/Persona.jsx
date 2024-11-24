@@ -1,7 +1,91 @@
 import React from "react";
+import React, { useState } from "react";
 import styles from './Persona.module.css'
 
 export const Persona = () => {
+
+// Function to determine dice type based on score
+const getDiceType = (score) => {
+    if (score <= 2) return "D4";
+    if (score <= 4) return "D6";
+    if (score <= 6) return "D8";
+    if (score <= 8) return "D10";
+    return "D12";
+};
+
+// State to store player and persona stats
+const [playerStats, setPlayerStats] = useState({
+    Expression: 1,
+    Knowledge: 1,
+    Athletics: 1,
+    Willpower: 1,
+    Proficiency: 1,
+});
+
+const [personaStats, setPersonaStats] = useState({
+    Strength: 1,
+    Magic: 1,
+    Defense: 1,
+    Agility: 1,
+    Vitality: 1,
+});
+
+// Handle changes to input fields and update the appropriate state
+const handleStatChange = (statType, ability, value) => {
+    const score = Math.max(1, Math.min(10, parseInt(value, 10) || 1)); // Clamping values between 1 and 10
+    if (statType === "player") {
+        setPlayerStats((prev) => ({
+            ...prev,
+            [ability]: score,
+        }));
+    } else if (statType === "persona") {
+        setPersonaStats((prev) => ({
+            ...prev,
+            [ability]: score,
+        }));
+    }
+};
+
+// Helper to render a table for stats
+const renderStatTable = (statType, stats) => (
+    <table className="table">
+        <thead>
+            <tr>
+                <th>Ability</th>
+                <th>Score</th>
+                <th>Dice</th>
+                <th>Roll</th>
+            </tr>
+        </thead>
+        <tbody>
+            {Object.keys(stats).map((ability) => (
+                <tr key={ability}>
+                    <td>{ability}</td>
+                    <td>
+                        <input
+                            name={ability}
+                            type="number"
+                            value={stats[ability]}
+                            min="1"
+                            max="10"
+                            onChange={(e) =>
+                                handleStatChange(statType, ability, e.target.value)
+                            }
+                        />
+                    </td>
+                    <td>{getDiceType(stats[ability])}</td>
+                    <td>
+                        <button onClick={() => alert(`Rolling a ${getDiceType(stats[ability])}`)}>
+                            Roll
+                        </button>
+                    </td>
+                </tr>
+            ))}
+        </tbody>
+    </table>
+);
+
+
     return (
         <section className="personaSheet">
             {/* Left Side Player, Right Side Persona */}
@@ -19,6 +103,9 @@ export const Persona = () => {
             <input type="text" name="playerName" />
             <label htmlFor="playerName">Player Name:</label>
             {/* Input for character level */}
+            {/* Renders table for player stats, to test. */}
+            {/* {renderStatTable("player", playerStats)} */}
+
             <table class="table">
                             <tr>
                                 <th>Ability</th>
@@ -83,6 +170,8 @@ export const Persona = () => {
             <input type="text" name="personaName" />
             <label htmlFor="personaName">Persona Name</label>
             {/* Input for Persona Level */}
+            {/* Renders stats for Persona, to test */}
+            {/* {renderStatTable("persona", personaStats)} */}
             <table class="table">
                             <tr>
                                 <th>Ability</th>
