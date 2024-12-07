@@ -1,4 +1,11 @@
 #tab-list {
     display: inline;
+}
+
+#tabs {
     background-color: blue;
+}
+
+#tab-nav {
+    background-color: red;
 }
