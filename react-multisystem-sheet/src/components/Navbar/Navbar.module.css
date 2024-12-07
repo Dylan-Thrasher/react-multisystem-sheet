@@ -1,11 +1,11 @@
-#tab-list {
+.tabList {
     display: inline;
 }
 
-#tabs {
+.tabs {
     background-color: blue;
 }
 
-#tab-nav {
+.tabNav {
     background-color: red;
 }
