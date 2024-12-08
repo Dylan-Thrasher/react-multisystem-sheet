@@ -1,11 +1,15 @@
-.tabList {
-    display: inline;
-}
-
 .tabs {
     background-color: blue;
 }
 
 .tabNav {
     background-color: red;
+}
+
+.tabList {
+    background-color: aqua;
+}
+
+.tabList li {
+    display: inline
 }
