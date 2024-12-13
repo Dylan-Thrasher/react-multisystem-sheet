@@ -3,7 +3,7 @@ import styles from './MotW.module.css'
 
 export const MotW = () => {
     return (
-        <section>
+        <section className={styles.section}>
             <form id="motwCharacterSheet">
             <h2>Player</h2>
             <input name="motwPlayer" type="text" list="motwPlayers"/>
