@@ -13,5 +13,8 @@
 .tabList li {
     display: inline;
     padding: 3px;
-    color: lime;
+}
+
+.tabList button {
+    color: red;
 }
