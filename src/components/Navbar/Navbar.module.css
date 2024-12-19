@@ -17,4 +17,6 @@
 
 .tabList button {
     color: red;
+    background-color: green;
+    border: 1px;
 }
