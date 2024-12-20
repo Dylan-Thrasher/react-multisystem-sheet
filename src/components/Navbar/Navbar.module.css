@@ -7,16 +7,17 @@
 }
 
 .tabList {
+    display: flex;
     background-color: aqua;
+    justify-content: space-between;
 }
 
 .tabList li {
     display: inline;
-    padding: 3px;
 }
 
 .tabList button {
     color: red;
-    background-color: green;
-    border: 1px;
+    background-color: rgb(13, 0, 128);
+    border: 1px solid;
 }
