@@ -9,7 +9,7 @@
 .tabList {
     display: flex;
     background-color: aqua;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .tabList li {
