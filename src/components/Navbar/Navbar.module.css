@@ -18,6 +18,6 @@
 
 .tabList button {
     color: red;
-    background-image: linear-gradient(blue, purple);
+    background-image: linear-gradient(to right, blue, purple);
     border: 1px solid;
 }
