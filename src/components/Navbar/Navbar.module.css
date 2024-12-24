@@ -18,6 +18,12 @@
 
 .tabList button {
     color: red;
-    background-image: linear-gradient(to right, blue, purple);
+    background-image: linear-gradient(to right, blue 0%, purple 100%);
     border: 1px solid;
+    background-size: 200%;
+    transition: 0.5s;
+}
+
+.tabList button:hover {
+    background-position: right center;
 }
