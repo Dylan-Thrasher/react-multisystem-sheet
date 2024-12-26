@@ -6,10 +6,10 @@ export const Navbar = () => {
         <div className={styles.tabs}>
             <nav className={styles.tabNav}>
                 <ul className={styles.tabList} id="tab-list">
-                <li><button>DnD5e</button></li>
-                <li><button>MotW</button></li>
-                <li><button>Persona</button></li>
-                <li><button>Magic Academy</button></li>
+                <li><button className="5eBtn">DnD5e</button></li>
+                <li><button className="motwBtn">MotW</button></li>
+                <li><button className="personaBtn">Persona</button></li>
+                <li><button className="magicAcademyBtn">Magic Academy</button></li>
             </ul>
             </nav>
         </div>
