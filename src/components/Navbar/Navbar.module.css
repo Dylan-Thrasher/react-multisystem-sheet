@@ -17,11 +17,18 @@
 }
 
 .tabList button {
-    color: red;
-    background-image: linear-gradient(to right, blue 0%, purple 25%, rgb(70, 5, 70) 45%, white 50%, rgb(70, 5, 70) 55%, purple 75%, blue 100%);
     border: 1px solid;
     background-size: 200%;
     transition: 0.5s ease;
+}
+
+.DnD5eBtn {
+    color: black;
+}
+
+.personaBtn {
+    color: red;
+    background-image: linear-gradient(to right, blue 0%, purple 25%, rgb(70, 5, 70) 45%, white 50%, rgb(70, 5, 70) 55%, purple 75%, blue 100%);
 }
 
 .tabList button:hover {
