@@ -23,7 +23,8 @@
 }
 
 .DnD5eBtn {
-    color: black;
+    color: white;
+    background-image: linear-gradient(to right, red 0%, black 25%, red 45%, white 50%, red 55%, black 75%, red 100%);
 }
 
 .personaBtn {
