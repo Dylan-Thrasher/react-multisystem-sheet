@@ -32,6 +32,17 @@
     background-image: linear-gradient(to right, blue 0%, purple 25%, rgb(70, 5, 70) 45%, white 50%, rgb(70, 5, 70) 55%, purple 75%, blue 100%);
 }
 
+.motwBtn {
+    background-size: auto 200%;
+   background-position: center top;
+    color: red;
+    background-image: linear-gradient(to bottom, green 0%, orange 25%, brown 45%, white 50%, brown 55%, orange 75%, green 100%);
+}
+
 .tabList button:hover {
     background-position: right center;
+}
+
+.motwBtn:hover {
+    background-position: center bottom;
 }
