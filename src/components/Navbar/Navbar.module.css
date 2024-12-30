@@ -39,6 +39,11 @@
     background-image: linear-gradient(to bottom, green 0%, orange 25%, brown 45%, white 50%, brown 55%, orange 75%, green 100%);
 }
 
+.magicAcademyBtn {
+    color: rgb(17, 235, 17);
+    background-image: linear-gradient(to right, blue 0%, rgb(0, 102, 255) 25%, rgb(5, 245, 213) 45%, white 50%, rgb(5, 245, 213) 55%, rgb(0, 102, 255) 75%, blue 100%);
+}
+
 .tabList button:hover {
     background-position: right center;
 }

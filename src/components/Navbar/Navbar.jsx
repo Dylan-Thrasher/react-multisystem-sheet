@@ -9,7 +9,7 @@ export const Navbar = () => {
                 <li><button className={styles.DnD5eBtn}>DnD5e</button></li>
                 <li><button className={styles.motwBtn}>MotW</button></li>
                 <li><button className={styles.personaBtn}>Persona</button></li>
-                <li><button className="magicAcademyBtn">Magic Academy</button></li>
+                <li><button className={styles.magicAcademyBtn}>Magic Academy</button></li>
             </ul>
             </nav>
         </div>
