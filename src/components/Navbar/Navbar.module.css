@@ -28,7 +28,7 @@
 }
 
 .personaBtn {
-    color: red;
+    color: white;
     background-image: linear-gradient(to right, blue 0%, purple 25%, rgb(70, 5, 70) 45%, white 50%, rgb(70, 5, 70) 55%, purple 75%, blue 100%);
 }
 
