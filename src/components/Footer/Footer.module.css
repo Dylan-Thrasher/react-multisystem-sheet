@@ -1,3 +1,10 @@
 footer {
     background-color: darkgreen;
 }
+
+input[type=submit] {
+    border: 1px solid;
+    background-size: 200%;
+    transition: 0.5s ease;
+    border-radius: 25%;
+}
