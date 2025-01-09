@@ -7,4 +7,5 @@ input[type=submit] {
     background-size: 200%;
     transition: 0.5s ease;
     border-radius: 25%;
+    background-color: aqua;
 }
