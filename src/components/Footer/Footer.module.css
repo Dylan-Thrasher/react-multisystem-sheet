@@ -7,7 +7,6 @@ input[type=submit] {
     background-size: 200%;
     transition: 0.75s ease;
     border-radius: 25%;
-    background-color: aqua;
     color: white;
     background-image: linear-gradient(to right, blue 0%, purple 25%, rgb(70, 5, 70) 45%, white 50%, rgb(70, 5, 70) 55%, purple 75%, blue 100%);
 }
