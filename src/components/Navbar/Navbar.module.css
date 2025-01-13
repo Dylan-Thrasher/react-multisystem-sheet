@@ -35,9 +35,11 @@
 
 .motwBtn {
     color: red;
-    background-image: linear-gradient(to bottom, green 0%, orange 25%, brown 45%, white 50%, brown 55%, orange 75%, green 100%);
-    background-position: center top;
-    background-size: 400%;
+    background-image: linear-gradient(to right, green 0%, orange 25%, brown 45%, white 50%, brown 55%, orange 75%, green 100%);
+    /* Test how to make vertical scanning with below information */
+    /* background-image: linear-gradient(to bottom, green 0%, orange 25%, brown 45%, white 50%, brown 55%, orange 75%, green 100%); */
+    /* background-position: center top; */
+    /* background-size: 400%; */
 }
 
 .magicAcademyBtn {
@@ -49,6 +51,6 @@
     background-position: right center;
 }
 
-.motwBtn:hover {
+/* .motwBtn:hover {
     background-position: center bottom;
-}
+} */
