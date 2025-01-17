@@ -13,6 +13,11 @@ export const RollForShoes = () => {
             <li>For every roll you fail, you get 1 XP.</li>
             <li>XP can be used to change a die into a 6 for advancement purposes only.</li>
             </ol>
+
+{/* Create skills section */}
+            {/* Do Anything 1 */}
+            {/* Create skill and level */}
+            {/* Roll button that shows the result of the number of d6s matching the skill level */}
         </section>
     )
 }
