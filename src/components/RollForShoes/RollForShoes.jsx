@@ -16,6 +16,13 @@ export const RollForShoes = () => {
 
 {/* Create skills section */}
             {/* Do Anything 1 */}
+            <table>
+                <tr>
+                    <th>Skill</th>
+                    <th>Level</th>
+                    <th>Roll</th>
+                </tr>
+            </table>
             {/* Create skill and level */}
             {/* Roll button that shows the result of the number of d6s matching the skill level */}
         </section>
