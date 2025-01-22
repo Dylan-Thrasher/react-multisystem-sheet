@@ -26,7 +26,7 @@ function SkillsTable() {
 
     // export const RollForShoes = () => {
         return (
-            <section>
+            <section className={styles.rollRules}>
                 <a href="https://rollforshoes.com/">Roll for Shoes official page</a>
                 <ol>
                     <li>Say what you do and roll a number of D6s, determined by the level of relevant skill you have.</li>
