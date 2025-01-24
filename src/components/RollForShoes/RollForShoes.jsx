@@ -1,7 +1,7 @@
-import React from "react";
+import React, {useState} from "react";
 import styles from './RollForShoes.module.css'
 
-function SkillsTable() {
+function RollForShoes() {
     const [rows, setRows] = useState([]); // Dynamic rows for user input
 
     const addRow = () => {
@@ -86,4 +86,4 @@ function SkillsTable() {
         )
     }
 // }
-export default SkillsTable;
+export default RollForShoes;
