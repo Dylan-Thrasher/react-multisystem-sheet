@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import styles from './RollForShoes.module.css'
-import RollTable from "./RollTable";
+import {RollTable} from "./RollTable";
 
 
     export const RollForShoes = () => {
