@@ -2,3 +2,12 @@ rollRules {
     color: white;
     background-color: black;
 }
+
+.rollButton {
+    border: 1px solid;
+    background-size: 200%;
+    transition: 0.5s ease;
+    border-radius: 25%;
+    color: rgb(17, 235, 17);
+    background-image: linear-gradient(to right, blue 0%, rgb(0, 102, 255) 25%, rgb(5, 245, 213) 45%, white 50%, rgb(5, 245, 213) 55%, rgb(0, 102, 255) 75%, blue 100%);
+}

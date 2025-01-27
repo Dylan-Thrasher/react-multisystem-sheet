@@ -52,7 +52,7 @@ import {RollTable} from "./RollTable";
                                     />
                                 </td>
                                 <td>
-                                    <button onClick={() => rollDice(row.level)}>Roll</button>
+                                    <button className="rollButton" onClick={() => rollDice(row.level)}>Roll</button>
                                 </td>
                             </tr>
                         ))}
