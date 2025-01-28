@@ -56,6 +56,9 @@ import {RollTable} from "./RollTable";
                                 </td>
                             </tr>
                         ))}
+                        <tr>
+                            <button onClick={() => addRow()}>Add Row</button>
+                        </tr>
                     </tbody>
                 </table>
                 {/* Create skill and level */}
